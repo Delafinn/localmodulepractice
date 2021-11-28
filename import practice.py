@@ -6,3 +6,5 @@ while True:
     if gq == "yes" or gq ==" yes" or gq == "y" or gq == "Y":
         print(namelist)
     time.sleep(3)
+    if gq == "no" or gq ==" no" or gq == "n" or gq == "N":
+    quit()

@@ -1,5 +1,6 @@
 # learning to import local modules
 from namelist import *
+import sys
 import time
 while True:
     gq = input("do you want to display the list of names?")
@@ -7,4 +8,4 @@ while True:
         print(namelist)
     time.sleep(3)
     if gq == "no" or gq ==" no" or gq == "n" or gq == "N":
-    quit()
+        sys.exit("quitting program")
